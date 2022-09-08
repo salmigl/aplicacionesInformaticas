@@ -1,0 +1,75 @@
+
+body {
+  margin: 0;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color:rgb(255, 252, 233);
+}
+h2{
+	margin-top: 0;
+	margin-bottom: .5rem;
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 1.2;	
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.2;
+}
+.tarjeta {
+  max-width: 65vw;
+  margin: 48px auto;
+  display: block;
+  border-radius: 0px;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: white;
+}
+.contenido {
+  display: flex;
+}
+
+.ladoDer{
+	width: 70%;
+	height: 100%;
+}
+.ladoIzq{
+	width: 70%;
+	height: 70%;
+}
+
+.ladoIzq img {
+	width: 100%;
+	height: 100%;
+  border-style: none;
+}
+.ladoDer {
+	background-color: white;
+  color: black;
+  
+}
+.btn {
+  display: inline-block;
+  margin-right: 4px;
+  padding: 14px;
+  border-radius: 5px;
+  margin-top: 18px;
+}
+a.btn{
+   text-decoration: none;
+}
+a.btn:first-of-type {
+   background: rgb(1, 31, 1);
+   color: white;
+
+}
+a.btn:hover{
+   opacity: 0.8;
+}
